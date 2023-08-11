@@ -7,14 +7,18 @@ const printDrink = (drink) => {
 }
 console.log(coffeeMenu.map(printDrink));
 
+
 //3. Print an array of drinks that cost 5 and under.
 
 const cheapDrinks = coffeeMenu.filter(drink => drink.price <= 5);
 console.log(cheapDrinks);
+
+
 //4. Print an array of drinks that are priced at an even number.
 
 const evenPricedDrinks = coffeeMenu.filter(drink => drink.price % 2 === 0);
 console.log(evenPricedDrinks);
+
 
 //5. Print the total if you were to order one of every drink.
 
